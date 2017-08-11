@@ -9,6 +9,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 
+
 /* NOTES from ThemesCollective
  *
  * Custom build of the necessary animations needed for franco html template.
@@ -16,22 +17,24 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
  *
  */
 
+
 /* ThemesCollective Note: CURRENT ANIMATIONS
  * We have only included the four animations we have used here, (fadeInUp, fadeInRight, fadeInLeft & fadeInLeftBig), instead of the whole library for better page-load times. Add more to this file if you need require other animation types. The full library is included in your template package, in the 'libs' folder. You can also visit the plugin authors' site, http://daneden.me/animate for more options.
  */
 
 .animated {
   -webkit-animation-duration: 1s;
-     -moz-animation-duration: 1s;
-      -ms-animation-duration: 1s;
-       -o-animation-duration: 1s;
-          animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-fill-mode: both;
-     -moz-animation-fill-mode: both;
-      -ms-animation-fill-mode: both;
-       -o-animation-fill-mode: both;
-          animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
 }
+
 
 /* fadeInUp */
 
@@ -40,7 +43,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
     -webkit-transform: translateY(20px);
   }
-  
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -52,7 +54,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
     -moz-transform: translateY(20px);
   }
-  
   100% {
     opacity: 1;
     -moz-transform: translateY(0);
@@ -64,7 +65,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
     -ms-transform: translateY(20px);
   }
-  
   100% {
     opacity: 1;
     -ms-transform: translateY(0);
@@ -76,7 +76,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
     -o-transform: translateY(20px);
   }
-  
   100% {
     opacity: 1;
     -o-transform: translateY(0);
@@ -88,7 +87,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
     transform: translateY(20px);
   }
-  
   100% {
     opacity: 1;
     transform: translateY(0);
@@ -103,6 +101,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   animation-name: fadeInUp;
 }
 
+
 /* fadeInRight */
 
 @-webkit-keyframes fadeInRight {
@@ -110,7 +109,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
     -webkit-transform: translateX(20px);
   }
-  
   100% {
     opacity: 1;
     -webkit-transform: translateX(0);
@@ -122,7 +120,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
     -moz-transform: translateX(20px);
   }
-  
   100% {
     opacity: 1;
     -moz-transform: translateX(0);
@@ -134,7 +131,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
     -ms-transform: translateX(20px);
   }
-  
   100% {
     opacity: 1;
     -ms-transform: translateX(0);
@@ -146,7 +142,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
     -o-transform: translateX(20px);
   }
-  
   100% {
     opacity: 1;
     -o-transform: translateX(0);
@@ -158,7 +153,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     opacity: 0;
     transform: translateX(20px);
   }
-  
   100% {
     opacity: 1;
     transform: translateX(0);
@@ -173,6 +167,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   animation-name: fadeInRight;
 }
 
+
 /* fadeInLeft */
 
 @-webkit-keyframes fadeInLeft {
@@ -181,7 +176,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     -webkit-transform: translateX(-20px);
     transform: translateX(-20px);
   }
-
   100% {
     opacity: 1;
     -webkit-transform: translateX(0);
@@ -196,7 +190,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     -ms-transform: translateX(-20px);
     transform: translateX(-20px);
   }
-
   100% {
     opacity: 1;
     -webkit-transform: translateX(0);
@@ -210,6 +203,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   animation-name: fadeInLeft;
 }
 
+
 /* fadeInLeftBig */
 
 @-webkit-keyframes fadeInLeftBig {
@@ -218,7 +212,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     -webkit-transform: translate3d(-2000px, 0, 0);
     transform: translate3d(-2000px, 0, 0);
   }
-
   100% {
     opacity: 1;
     -webkit-transform: none;
@@ -233,7 +226,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     -ms-transform: translate3d(-2000px, 0, 0);
     transform: translate3d(-2000px, 0, 0);
   }
-
   100% {
     opacity: 1;
     -webkit-transform: none;
